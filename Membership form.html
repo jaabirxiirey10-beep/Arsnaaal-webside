@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arsenal Membership</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+background:#7a4750;
+color:white;
+text-align:center;
+padding:20px;
+margin-top: 40px;
+}
+
+nav{
+background:#f76e90;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+}
+
+nav ul li{
+margin:15px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+padding:10px 20px;
+}
+
+nav ul li a:hover{
+background:#c8102e;
+border-radius:5px;
+}
+
+form{
+width:60%;
+margin:30px auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,.2);
+}
+
+fieldset{
+padding:20px;
+border:2px solid #c8102e;
+}
+
+legend{
+font-size:22px;
+font-weight:bold;
+color:#c8102e;
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+input,select,textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.radio,
+.check{
+margin-top:15px;
+}
+
+button{
+margin-top:20px;
+padding:12px 25px;
+background:#c8102e;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#063672;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+@media(max-width:768px){
+form{
+width:90%;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Arsenal Membership Form</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="jaabir xirey.html">Home</a></li>
+<li><a href="match schedule.html">match-schedule</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="Membership form.html">Membership</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</nav>
+
+<form>
+
+<fieldset>
+
+<legend>Join Arsenal Sports Club</legend>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email" required>
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter your phone number" required>
+
+<label>Age</label>
+<input type="number" placeholder="age" required>
+
+<label>Favorite Position</label>
+
+<select required>
+<option>Choose Position</option>
+<option>Goalkeeper</option>
+<option>Defender</option>
+<option>Midfielder</option>
+<option>Forward</option>
+</select>
+
+<div class="radio">
+<label>Membership Type</label>
+
+<input type="radio" name="member"> Standard<br>
+<input type="radio" name="member"> Premium
+</div>
+
+<div class="check">
+<label>Sports Interests</label>
+
+<input type="checkbox"> Football<br>
+<input type="checkbox"> Fitness<br>
+<input type="checkbox"> Training
+</div>
+
+<label>Message</label>
+<textarea rows="5" placeholder="Write your message"></textarea>
+
+<button type="submit">Register</button>
+
+</fieldset>
+
+</form>
+
+<footer>
+<p>© 2026 Arsenal Sports Club Website</p>
+</footer>
+
+</body>
+</html>
